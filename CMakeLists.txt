@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.25)
 
 Project(SandMan CXX)
+set(CMAKE_CXX_STANDARD 17)
+
 
 # Test Support
 find_package(doctest)
