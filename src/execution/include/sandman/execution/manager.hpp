@@ -1,6 +1,8 @@
 #include <chrono>
+#include <functional>
 #include <ratio>
 #include <unordered_map>
+#include <vector>
 
 struct Job {
   std::function<void()> task;
